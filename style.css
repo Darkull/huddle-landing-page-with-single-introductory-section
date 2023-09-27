@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+body {
+  background-image: url(images/bg-desktop.svg);
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+
+.container {
+  /* max-width: 120rem; */
+  padding: 1rem 10rem 6rem 10rem;
+  margin: 0 auto;
+}
+
+.header {
+}
+
+.logo {
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+.hero-left--img {
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-text--right {
+  color: #fff;
+  margin-top: 6rem;
+  width: 90%;
+}
+
+.hero-heading {
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.hero-description {
+  font-family: "Open Sans";
+  color: #ffffffce;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  background: none;
+  border: none;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+
+  font-weight: 600;
+}
+
+.hero-btn:hover {
+  background-color: #da77f2;
+  color: #fff;
+}
+
+.hero-btn:active {
+  color: #111;
+}
+
+.footer {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.icon-div {
+  display: flex;
+  justify-content: end;
+}
+
+.icon {
+  font-size: 2.4rem;
+  color: #fff;
+  height: 3.2rem;
+  width: 3.2rem;
+  border: 2px solid #fff;
+  padding: 0.4rem;
+  border-radius: 100px;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.icon:hover {
+  color: #da77f2;
+  border: 2px solid #da77f2;
+}
+
+.attribution {
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}
